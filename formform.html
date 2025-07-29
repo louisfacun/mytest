@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/js/leadsources.min.js"></script>
+  </head>
+  <body>
+    <form id="form1" action="#" method="post">
+      <label for="userInput">Your Input:</label>
+      <input type="text" id="userInput" name="userInput" required />
+  
+      <!-- Hidden input fields -->
+      <input type="hidden" name="Channel" value="[channel]" />
+      <input type="hidden" name="Source" value="[source]" />
+      <input type="hidden" name="Campaign" value="[campaign]" />
+      <input type="hidden" name="Term" value="[term]" />
+      <input type="hidden" name="Content" value="[content]" />
+      <input type="hidden" name="Landing Page" value="[landingPage]" />
+      <input
+        type="hidden"
+        name="Landing Page Subfolder"
+        value="[landingPageSubfolder]"
+      />
+  
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
